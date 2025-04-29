@@ -7,6 +7,21 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1e1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .heading{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 600px;
+}
 .container{
     background-color:darkslategrey;
     color: white;
@@ -15,8 +30,6 @@
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 35%;
-    left: 35%;
     padding: 30px;
     border-radius: 20px;
 } 

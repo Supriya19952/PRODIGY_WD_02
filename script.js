@@ -49,7 +49,7 @@ function startTimer(){
 }
 
 function getTimer(){
-    return (hrs<10 ? "0" + hrs : hrs) + ":" + (mins < 10 ? "0" + mins : mins) + ":" + (sec < 10 ? "0" + sec : sec) + ":" +(msec < 10 ? "0" + msec : msec);
+    return (hrs<10 ? "0" + hrs : hrs) +  " : "  + (mins < 10 ? "0" + mins : mins) +  " : "  + (sec < 10 ? "0" + sec : sec) +  " : "  +(msec < 10 ? "0" + msec : msec);
 }
 
 btnPause.addEventListener('click', function(){
